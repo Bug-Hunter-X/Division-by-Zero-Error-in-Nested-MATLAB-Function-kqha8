@@ -1,0 +1,3 @@
+# Division by Zero Error in Nested MATLAB Function
+
+This repository contains a MATLAB function that demonstrates a common error: division by zero in a nested function. The main function, `myFunction`, calls the nested function `someCalculation`.  `someCalculation` attempts to divide by `(x-5)`, leading to an error when `x` is 5.  The solution demonstrates how to gracefully handle this error condition.  The files `bug.m` and `bugSolution.m` contain the buggy code and its corrected version, respectively.
